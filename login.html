@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Cadastrar</button>              </button>
+            </div>
+            <div class="social-icons">
+                <img src="./img/fb.png">
+                <img src="./img/tw.png">
+                <img src="./img/gp.png">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Senha" required>
+                <input type="checkbox" class="chech-box"><span>Lembrar a senha</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Email" required>
+                <input type="email" class="input-field" placeholder="Email novamente" required>
+                <input type="text" class="input-field" placeholder="Senha" required>
+                <input type="checkbox" class="chech-box"><span>Eu concordo com os termos & condições</span>
+                <button type="submit" class="submit-btn">Cadastrar</button>
+            </form>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
